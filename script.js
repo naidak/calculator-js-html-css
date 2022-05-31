@@ -7,5 +7,5 @@ function update(value) {
 }
 
 function result() {
-    document.getElementById("Result").innerText = eval(document.getElementById("Result").innerText);
+    document.getElementById("Result").innerText = (eval(document.getElementById("Result").innerText)).toFixed(2);
 }
